@@ -8,7 +8,7 @@ a {
 }
 
 ul li{
-	 display: inline;
+   display: inline;
 }
 
 
@@ -17,23 +17,34 @@ list-style: none;
 }
 
 
-
-.container{
-	margin: 100px;
-}
-
-
 #navleft {
-	 float: left;
-	 font-weight: 24px;
+   float: left;
+   font-weight: 24px;
 }
 
 
 #navright {
-	 float: right;
+   float: right;
 }
 
 
+#portfolio{
+
+  height: 800px;
+}
+
+.menu{
+ 
+  width: 33%;
+  display: block;
+  float: left;
+
+}
+
+#about{
+  text-align: center;
+
+}
 
 p {
   font-size: 20px;
@@ -247,6 +258,7 @@ section.success a.active {
 }
 #portfolio * {
   z-index: 2;
+  text-align:center;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
