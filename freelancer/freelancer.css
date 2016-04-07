@@ -155,6 +155,15 @@ header .intro-text .skills {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  
+  position: fixed;
+  top: 0;
+  border: 1px solid;
+  width: 100%;
+  height: 98px;
+  background: white;
+  z-index: 100;
+
 }
 .navbar a:focus {
   outline: none;
