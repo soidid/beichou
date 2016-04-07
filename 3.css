@@ -1,0 +1,50 @@
+
+body{ margin: 0px;
+overflow-x: hidden;  }
+
+#sitebody{
+margin:0 auto;
+font-size:13px;
+}
+
+#header{
+background-color:#C6E872;
+height:80px;
+text-align:center;
+line-height:80px;
+font-size: 72px;
+}
+
+#sidebar_left{
+background-color:#66D37E;
+width:120px;
+height:400px;
+text-align:center;
+line-height:400px;
+float:left;
+}
+
+#sidebar_right{
+background-color:#66D37E;
+width:120px;
+height:400px;
+text-align:center;
+line-height:400px;
+float:right;
+}
+
+#content{
+margin-top: 0px;
+margin-left:120px;
+margin-right:120px;
+height:400px;
+background-color:#0D625E;
+}
+
+#footer{
+clear:both;
+background-color:#FBFFA3;
+height:80px;
+text-align:center;
+line-height:80px;
+}

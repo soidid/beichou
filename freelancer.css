@@ -8,7 +8,7 @@ a {
 }
 
 ul li{
-	 display: inline;
+   display: inline;
 }
 
 
@@ -17,30 +17,34 @@ list-style: none;
 }
 
 
-#nav{
-  width: 100%;
-  height: 100px;
-  background-color: #2D4158;
-  position: fixed;
-  margin: 0px;
-}
-
-.container{
-	margin: 100px;
-}
-
-
 #navleft {
-	 float: left;
-	 font-weight: 24px;
+   float: left;
+   font-weight: 24px;
 }
 
 
 #navright {
-	 float: right;
+   float: right;
 }
 
 
+#portfolio{
+
+  height: 800px;
+}
+
+.menu{
+ 
+  width: 33%;
+  display: block;
+  float: left;
+
+}
+
+#about{
+  text-align: center;
+
+}
 
 p {
   font-size: 20px;
@@ -162,6 +166,15 @@ header .intro-text .skills {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  
+  position: fixed;
+  top: 0;
+  border: 1px solid;
+  width: 100%;
+  height: 98px;
+  background: white;
+  z-index: 100;
+
 }
 .navbar a:focus {
   outline: none;
@@ -245,6 +258,7 @@ section.success a.active {
 }
 #portfolio * {
   z-index: 2;
+  text-align:center;
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
